@@ -21,6 +21,10 @@
             });
             return count;
         }
+
+        $scope.warningLevel = function () {
+            return $scope.incompleteCount() < 3 ? "label-success" : "label-warning";
+        }
     });
 
 })();
