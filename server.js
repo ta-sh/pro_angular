@@ -1,3 +1,4 @@
+var bla = "bla";
 var connect = require('connect'),
     serveStatic = require('serve-static');
 
